@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Para mi Enana 💜</title>
+
+<style>
+body{
+  margin:0;
+  font-family:'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(135deg,#b388ff,#e1bee7);
+  min-height:100vh;
+  overflow:hidden;
+}
+
+/* Tulipanes */
+.tulipanes{
+  position:fixed;
+  width:100%;
+  height:100%;
+  pointer-events:none;
+  z-index:0;
+}
+.tulipan{
+  position:absolute;
+  animation: flotar linear infinite;
+  opacity:0.8;
+}
+@keyframes flotar{
+  from{transform:translateY(110vh) rotate(0deg);}
+  to{transform:translateY(-20vh) rotate(360deg);}
+}
+
+/* Botón */
+.boton-centro{
+  position:fixed;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+  z-index:2;
+}
+button{
+  background:#7b1fa2;
+  border:none;
+  color:white;
+  font-size:20px;
+  padding:18px 45px;
+  border-radius:50px;
+  cursor:pointer;
+  animation: latido 1.5s infinite;
+}
+@keyframes latido{
+  0%,100%{transform:scale(1);}
+  50%{transform:scale(1.1);}
+}
+
+/* Contenido arcoíris */
+.contenido{
+  display:none;
+  max-width:420px;
+  margin:40px auto;
+  padding:4px;
+  border-radius:28px;
+  background:linear-gradient(270deg,#ff1744,#ff9100,#ffea00,#00e676,#2979ff,#651fff,#d500f9);
+  background-size:600% 600%;
+  animation: arcoiris 8s ease infinite;
+}
+@keyframes arcoiris{
+  0%{background-position:0% 50%;}
+  50%{background-position:100% 50%;}
+  100%{background-position:0% 50%;}
+}
+
+.contenido-interno{
+  background:white;
+  border-radius:24px;
+  padding:25px;
+  max-height:80vh;
+  overflow-y:auto;
+  animation: aparecer 1.2s ease;
+}
+@keyframes aparecer{
+  from{opacity:0;transform:translateY(30px);}
+  to{opacity:1;transform:translateY(0);}
+}
+
+/* Imagen */
+.foto{
+  width:100%;
+  max-width:320px;
+  border-radius:20px;
+  display:block;
+  margin:0 auto 20px auto;
+  box-shadow:0 10px 25px rgba(0,0,0,.25);
+}
+
+/* Texto */
+.texto{
+  white-space:pre-line;
+  line-height:1.7;
+  color:#333;
+  font-size:15px;
+}
+</style>
+</head>
+
+<body>
+
+<div class="tulipanes" id="tulipanes"></div>
+
+<div class="boton-centro" id="boton">
+  <button onclick="mostrar()">💜 Toca aquí Enana 💜</button>
+</div>
+
+<div class="contenido" id="contenido">
+  <div class="contenido-interno">
+
+    <img src="foto.jpg" alt="Mi Enana 💜" class="foto">
+
+    <div class="texto">
+Querida Enana ❤️✨ Me dijiste que te escribiera algo memorable, así que aquí está...
+
+Me acuerdo de la primera vez que empezamos a hablar, de la primera vez que te vi en ese juego.🥺 Recuerdo que tabas ahí paradita en isla Jsjsj ahí nos conocimos... Sin pensar que ibas a llegar a ser una persona muy especial en mi vida, y que te iba a querer demasiado 🫶❤️✨ Tu me has demostrado y me has hecho volver a creer en la amistad... Y lo real que son las personas, bueno algunas... Y tú eres una de esas pocas personas que quedan, y soy afortunado de tenerte como mi mejor amiga 💗 Te quiero mucho... Y quiero que sepas que aquí estaré para ti, siempre.✨ Sé que a veces demuestro lo contrario... Pero es porque a veces no sé qué me pasa, pero eso no cambia que siempre serás importante para mí.
+
+Me aguantas mucho, aunque no tengas paciencia... Igual que yo, pero ambos nos aguantamos... Aunque seamos celosos, posesivos, tóxicos o dramáticos... Siempre nos aguantamos los 2... Y es algo que me gusta, y me demuestras que así me quieres.🥺💗 Siento que si algún día dejamos de hablar... Ya no tendré otra amistad como la que tenemos, somos casi iguales... Hasta en la forma de pensar las cosas o al escribir 😹🫶 Esa conexión que decimos nosotros.❤️✨
+
+Yo sé que no tienes esa confianza de contarme lo que te pasa... Pero sabes que cualquier cosa que te pase... Aquí estaré para ti💗🫂 Siempre estaré contigo, si el mundo está contra ti... Yo estaré contra el mundo, solo para cuidarla, y que nadie me la haga sentir mal, siempre te defenderé mi enana monita🥺❤️✨
+
+Y te quiero agradecer por ser mi mejor amiga... Por estar aquí a mi ladito, 🥺 sé que te das cuenta cuando me siento mal... Y tratas de hacerme sentir bien, y créeme que lo logras... Cuando jugamos, o cuando vamos a Discord a jugar Roblox... Eso me pone mucho mejor 🥺✨ o escuchar a Samary✨ que también le dices que me hable, para que me sienta mejor... Aunque a veces yo no te hable, pero aún así intentas hacerme sentir mejor.🥺❤️🫶
+
+Gracias por nunca dejarme solo, aunque yo quiera estar solo cuando me siento mal... Tú ahí estás aunque no te cuente qué tengo, siempre con tus palabras me haces sentir bien, cuando me animas y me dices tal cosa🥺🫶 De verdad que me hace sentir mejor...
+
+Te quiero con todo mi corazón enana, me has hecho sentir muy feliz con tu amistad 🥺🫶✨ 
+
+Eres la única que puede decir que deje mi ego y mi orgullo a un lado... Solo para no perder tu amistad, bueno de ratos me entra ¿no? Pero ya no como antes, me he dado cuenta de la linda amistad que tengo contigo... Y que por ser así la puedo perder, y por eso he cambiado.🥺
+
+Y sip, tienes razón que ya toy chiflado diciéndote tantas cosas monitas o así... Pero contigo ya me sale ser así, cosa que antes no hacía... Es también para que veas lo mucho que te quelo🥺🫶✨❤️
+
+Eres una persona increíble, con un corazón enorme, y me siento muy afortunado de poder llamarte mi mejor amiga. Gracias por las risas, las pláticas interminables, los recuerdos y por ser tal cual eres. Ojalá la vida nos regale muchos momentos más juntos, porque una amistad como la tuya vale oro. 🥺❤️✨
+
+Eres mi apoyo, mi refugio, mi compañera de vida, y aunque el mundo cambie, sé que tú siempre estarás ahí... Te quiero mucho mi enana monita🥺✨🫶❤️
+
+Perdón si me tardé en hacer esto... Pero ya te lo hice😓
+    </div>
+
+  </div>
+</div>
+
+<script>
+const tulipanes=document.getElementById("tulipanes");
+for(let i=0;i<45;i++){
+  const t=document.createElement("div");
+  t.className="tulipan";
+  t.textContent="🌷";
+  t.style.left=Math.random()*100+"vw";
+  t.style.top=Math.random()*100+"vh";
+  t.style.fontSize=(20+Math.random()*30)+"px";
+  t.style.animationDuration=(6+Math.random()*10)+"s";
+  tulipanes.appendChild(t);
+}
+
+function mostrar(){
+  document.getElementById("boton").style.display="none";
+  document.getElementById("tulipanes").style.display="none";
+  document.getElementById("contenido").style.display="block";
+}
+</script>
+
+</body>
+</html>
